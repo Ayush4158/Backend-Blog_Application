@@ -3,3 +3,5 @@ const asyncHandler = (requsetHandler) => {
     Promise.resolve(requsetHandler(req,res,next)).catch((error) => next(error))
   }
 }
+
+export {asyncHandler}

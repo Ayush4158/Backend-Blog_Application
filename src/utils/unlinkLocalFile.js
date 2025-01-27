@@ -14,3 +14,5 @@ const unlinkLocalFile = (localFilePath) => {
     
   }
 }
+
+export {unlinkLocalFile}
